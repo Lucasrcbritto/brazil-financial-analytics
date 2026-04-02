@@ -1,0 +1,6 @@
+yfinance
+pandas
+duckdb
+streamlit
+plotly
+dbt-duckdb
