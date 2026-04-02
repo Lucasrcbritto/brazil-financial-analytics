@@ -15,3 +15,12 @@ interactive Streamlit dashboard.
 ## Status
 🚧 Work in progress
 
+## How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Lucasrcbritto/brazil-financial-analytics.git
+cd brazil-financial-analytics
+
+# Install dependencies
+pip install -r requirements.txt
