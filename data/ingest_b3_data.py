@@ -14,7 +14,8 @@ TICKERS = [
     "WEGE3.SA",   # WEG
     "RENT3.SA",   # Localiza
     "RDOR3.SA",   # Rede D'Or
-    "MELI34.SA",  # MercadoLibre BDR
+    "MELI34.SA",   # MercadoLibre BDR
+    "OFSA3.SA",   # Ourofino S.A
 ]
 
 def fetch_financials(ticker: str) -> pd.DataFrame:
