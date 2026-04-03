@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_receita
+    description: "Standardized quarterly revenue data for B3 listed companies"
+    columns:
+      - name: ticker
+        description: "Stock ticker symbol (e.g. IGTI3, WEGE3)"
+        tests:
+          - not_null
+      - name: company_name
+        description: "Company name"
+        tests:
+          - not_null
+      - name: year
+        description: "Fiscal year"
+        tests:
+          - not_null
+      - name: quarter
+        description: "Fiscal quarter (1-4)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4]
+      - name: revenue_millions
+        description: "Quarterly revenue in millions BRL"
+        tests:
+          - not_null
